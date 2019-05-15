@@ -1112,6 +1112,11 @@
             "command": "/usr/bin/yum -C repolist",
             "pattern": [],
             "symbolic_name": "yum_repolist"
+        },
+        {
+            "command": "/usr/bin/yum list installed",
+            "pattern": [],
+            "symbolic_name": "yum_list_installed"
         }
     ],
     "files": [
